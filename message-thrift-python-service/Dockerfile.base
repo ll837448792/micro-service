@@ -1,0 +1,5 @@
+FROM 192.168.1.103:80/micro-service/python:3.6
+
+MAINTAINER smallsoup smallsoup@163.com
+
+RUN pip install thrift
